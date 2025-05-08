@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>TAU STUDENT DATA</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Age</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>21</td>
+                <td>Ethan Caldwell</td>
+                <td>100Level</td>
+                <td>201</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Olivia Bennett</td>
+                <td>200Level</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Marcus Delgado</td>
+                <td>300Level</td>
+                <td>197</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Talia Nguyen</td>
+                <td>400Level</td>
+                <td>123</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="container">
+        <h2>Course Registration</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label>Gender:</label>
+          <div class="radio-group">
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male" style="display:inline;">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female" style="display:inline;">Female</label>
+          </div>
+    
+          <label for="course">Course:</label>
+          <select id="course" name="course" required>
+            <option value="">--Select Course--</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Software Engr.">Software Engr.</option>
+            <option value="Computer Sci">Computer Sci</option>
+          </select>
+    
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>
